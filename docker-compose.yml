@@ -1,14 +1,14 @@
 version: "3"
 services:
   backend:
-    image: sanbonai06/bankids-server-prod:feature-deploy
+    image: sanbonai06/bankids-server-prod:main
     container_name: backend
     hostname: backend
     expose:
       - "8080"
 
   client:
-    image: sanbonai06/bankids-client:dev
+    image: sanbonai06/bankids-client:main
     container_name: client
     ports:
       - "3000:3000"
