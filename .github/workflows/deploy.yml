@@ -19,7 +19,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ubuntu
           key: ${{ secrets.KEY }}
-          script: mkdir -p ~srv/bankids
+          script: mkdir -p ~/srv/bankids
 
       - name: copy source via ssh key
         uses: burnett01/rsync-deployments@4.1
