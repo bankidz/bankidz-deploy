@@ -36,5 +36,11 @@ aT, rT 인증 및 리프레시 체크
   * 돈길 계약하기 / 돈길 수락 및 거절하기 API는 일요일엔 이용 불가 Validation 추가
   * API별로 접근 가능한 유저들 권한 검사 Validation 추가 
 
+### 2022-07-31 ###
+* v0.1.0
+* BE 수정 사항
+  * 돈길 삭제 API 수정
+  * 돈길 걷기 API requestBody 삭제
+  * challengeDTO 수정
 ---
 ###### 2022 Bankidz
