@@ -42,5 +42,11 @@ aT, rT 인증 및 리프레시 체크
   * 돈길 삭제 API 수정
   * 돈길 걷기 API requestBody 삭제
   * challengeDTO 수정
+
+* v0.1.1
+* BE 수정 사항
+  * 돈길 삭제 API 성공 시 돈길의 정보를 return
+  * 돈길 리스트 API 시, 이자율에 따른 실패 돈길은 param이 accept일 때, 갖고오기
+  * 스웨거 수정
 ---
 ###### 2022 Bankidz
