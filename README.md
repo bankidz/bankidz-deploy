@@ -49,4 +49,10 @@ aT, rT 인증 및 리프레시 체크
   * 돈길 리스트 API 시, 이자율에 따른 실패 돈길은 param이 accept일 때, 갖고오기
   * 스웨거 수정
 ---
+
+### 2022-08-01 ###
+* BE 수정 사항
+  * 자녀의 돈길 리스트 API에 pathVariable, query parameter 하나씩 추가
+  * 가족 정보 조회 API에 유저를 가족에서 제외하고 리스트 반환
+  * 자녀 리스트 조회 API에 kidId 추가
 ###### 2022 Bankidz
