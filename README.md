@@ -50,10 +50,20 @@ aT, rT 인증 및 리프레시 체크
   * 스웨거 수정
 
 ### 2022-08-01 ###
+* v0.1.2
 * BE 수정 사항
   * 자녀의 돈길 리스트 API에 pathVariable, query parameter 하나씩 추가
   * 가족 정보 조회 API에 유저를 가족에서 제외하고 리스트 반환
   * 자녀 리스트 조회 API에 kidId 추가
- 
+
+### 2022-08-03 ###
+* v0.1.3
+* BE 수정 사항
+  * 시간 로직 전면 수정
+  * S3 추가
+  * parent의 totalCahllenge / savings 컬럼 삭제
+  * 그 외 자잘한 에러 수정
+  
 ---
+
 ###### 2022 Bankidz
