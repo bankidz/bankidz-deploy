@@ -63,6 +63,10 @@ aT, rT 인증 및 리프레시 체크
   * S3 추가
   * parent의 totalCahllenge / savings 컬럼 삭제
   * 그 외 자잘한 에러 수정
+
+### 2022-08-04 ###
+* v0.1.4
+* FE / BE QA 1차 반영
   
 ---
 
