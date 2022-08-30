@@ -1,7 +1,7 @@
 version: "3"
 services:
   backend:
-    image: sanbonai06/bankids-server-prod:0.2.0
+    image: sanbonai06/bankids-server-prod:0.3.0
     container_name: backend
     hostname: backend
     expose:
