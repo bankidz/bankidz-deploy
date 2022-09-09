@@ -39,6 +39,8 @@ jobs:
           script: |
             sh ~/srv/bankids/deploy.sh
             echo "start docker-compose up: ubuntu"
-            sudo docker image prune -a
+            sudo docker stop $(sudo docker ps -a -q)
+            sudo docker rm $(sudo docker ps -a -q)
+            sudo docker rmi $(sudo docker images -q)
             sudo docker-compose -f ~/srv/bankids/docker-compose.yml pull
             sudo docker-compose -f ~/srv/bankids/docker-compose.yml up --build -d
